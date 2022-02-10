@@ -1,7 +1,7 @@
-import '../css/NavBar.css';
+import '../../css/NavBar.css';
 import NavTab from './NavTab';
 
-function HeaderNavBar(props) {
+const HeaderNavBar = (props) => {
     const navTabs = [
         {
           id: 'n1',

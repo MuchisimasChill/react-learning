@@ -1,6 +1,6 @@
-import '../css/NavBar.css';
+import '../../css/NavBar.css';
 
-function NavTab(props) {
+const NavTab = (props) => {
     return (
         <div className="navtab">
             <span>

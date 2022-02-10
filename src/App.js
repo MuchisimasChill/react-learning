@@ -1,8 +1,8 @@
 import './App.css';
-import ExpenseItem from './components/ExpenseItem';
-import HeaderNavBar from './components/HeaderNavBar';
+import ExpenseItem from './components/Expenses/ExpenseItem';
+import HeaderNavBar from './components/NavBar/HeaderNavBar';
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: 'e1',
