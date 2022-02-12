@@ -4,15 +4,15 @@ import NavTab from './NavTab';
 const HeaderNavBar = (props) => {
     const navTabs = [
         {
-          id: 'n1',
+          key: 'n1',
           title: 'Home'
         },
         {
-          id: 'n2',
+          key: 'n2',
           title: 'Expenses'
         },
         {
-          id: 'n3',
+          key: 'n3',
           title: 'Tasks'
         },
     ];
@@ -22,6 +22,7 @@ const HeaderNavBar = (props) => {
       const navTab = navTabs[i];
       navTabItems.push(
         <NavTab
+          key={navTab.key}
           title={navTab.title}
         ></NavTab>
       );
