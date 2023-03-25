@@ -8,14 +8,14 @@ const DUMMY_EXPENSES = [
   {
     id: 'e1',
     title: 'Car',
-    amount: 0.35,
-    date: new Date(2000, 3, 20)
+    amount: 10,
+    date: new Date(2000, 3, 20),
   },
   {
     id: 'e2',
     title: 'Laptop',
-    amount: 1.25,
-    date: new Date(2000, 3, 22)
+    amount: 30,
+    date: new Date(2000, 2, 22),
   },
   {
     id: 'e3',

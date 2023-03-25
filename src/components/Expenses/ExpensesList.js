@@ -3,12 +3,7 @@ import '../../css/ExpensesList.css';
 import ExpenseItem from './ExpenseItem';
 
 const ExpensesList = (props) => {
-    const expensesContent =  props.items.filter((item) => {
-            if (item.date.getFullYear() === +props.year) {
-                return true;
-            }
-            return false;
-        }).map((item) => (
+    const expensesContent =  props.items.map((item) => (
             <ExpenseItem
                 key={item.id}
                 title={item.title}
